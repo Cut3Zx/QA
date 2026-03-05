@@ -362,7 +362,7 @@
         let hasAnsweredCurrent = false;
 
         // Load data
-        fetch('quiz_parsed.json')
+        fetch('quiz_parsed.json?v=' + Date.now())
             .then(response => response.json())
             .then(data => {
                 // Filter out empty chapters or chapters without questions
