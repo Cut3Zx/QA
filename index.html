@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc nghiệm Kinh tế Chính trị Mác - Lênin</title>
+    <style>
+        :root {
+            --primary: #4361ee;
+            --primary-light: #4895ef;
+            --success: #2ecc71;
+            --error: #e74c3c;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #2b2d42;
+            --text-light: #8d99ae;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        /* Chapter Selection */
+        #chapter-selection {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .chapter-btn {
+            background-color: var(--bg);
+            border: 2px solid transparent;
+            border-radius: 8px;
+            padding: 1.2rem;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--text);
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chapter-btn:hover {
+            border-color: var(--primary-light);
+            background-color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(67, 97, 238, 0.1);
+        }
+
+        .chapter-btn .count {
+            background-color: var(--primary);
+            color: white;
+            padding: 0.2rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Quiz App */
+        #quiz-app {
+            display: none;
+        }
+
+        .quiz-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .back-btn {
+            background: none;
+            border: none;
+            color: var(--text-light);
+            cursor: pointer;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.2s;
+        }
+
+        .back-btn:hover {
+            color: var(--primary);
+        }
+
+        .progress-container {
+            margin-bottom: 1.5rem;
+        }
+
+        .progress-bar-bg {
+            height: 8px;
+            background-color: var(--bg);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background-color: var(--primary);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .question-text {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--text);
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .option {
+            background-color: var(--bg);
+            border: 2px solid transparent;
+            border-radius: 8px;
+            padding: 1.2rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 1rem;
+            position: relative;
+        }
+
+        .option:hover:not(.disabled) {
+            border-color: var(--primary-light);
+            background-color: white;
+        }
+
+        .option.selected {
+            border-color: var(--primary);
+            background-color: rgba(67, 97, 238, 0.05);
+        }
+
+        .option.correct {
+            border-color: var(--success);
+            background-color: rgba(46, 204, 113, 0.05);
+            color: #1e8449;
+        }
+
+        .option.wrong {
+            border-color: var(--error);
+            background-color: rgba(231, 76, 60, 0.05);
+            color: #c0392b;
+        }
+
+        .option.disabled {
+            cursor: default;
+            opacity: 0.8;
+        }
+
+        .feedback {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-align: center;
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .feedback.correct-feedback {
+            background-color: rgba(46, 204, 113, 0.1);
+            color: var(--success);
+        }
+
+        .feedback.wrong-feedback {
+            background-color: rgba(231, 76, 60, 0.1);
+            color: var(--error);
+        }
+
+        .actions {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+        }
+
+        .btn {
+            padding: 0.8rem 1.5rem;
+            border-radius: 6px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            background-color: #3250e5;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(67, 97, 238, 0.3);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+
+        .btn-outline:hover {
+            background-color: rgba(67, 97, 238, 0.05);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Results Screen */
+        #results-screen {
+            display: none;
+            text-align: center;
+        }
+
+        .score-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 8px solid var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Ôn tập Kinh tế Chính trị</h1>
+            <p>Chọn chương để bắt đầu làm trắc nghiệm</p>
+        </header>
+
+        <!-- Chapter Selection -->
+        <div id="selection-screen" class="card">
+            <h2 style="margin-bottom: 1.5rem; color: #333;">Danh sách Chương</h2>
+            <div id="chapter-list">
+                <p>Đang tải dữ liệu...</p>
+            </div>
+        </div>
+
+        <!-- Quiz App -->
+        <div id="quiz-app">
+            <div class="card">
+                <div class="quiz-header">
+                    <button class="back-btn" onclick="backToSelection()">&#8592; Quay lại</button>
+                    <div style="font-weight: 600;" id="chapter-title">Chương 1</div>
+                </div>
+
+                <div class="progress-container">
+                    <div
+                        style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--text-light);">
+                        <span id="question-counter">Câu 1/10</span>
+                        <span id="score-counter">Điểm: 0</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" id="progress-bar"></div>
+                    </div>
+                </div>
+
+                <div id="quiz-content">
+                    <div class="question-text" id="question-text">Question goes here</div>
+                    <div class="options" id="options-container">
+                        <!-- Options injected here -->
+                    </div>
+                    <div class="feedback" id="feedback-message"></div>
+                    <div class="actions">
+                        <button class="btn btn-outline" id="btn-randomize" onclick="randomizeQuestions()">Trộn câu
+                            hỏi</button>
+                        <button class="btn btn-primary" id="btn-next" onclick="nextQuestion()" disabled>Câu tiếp theo
+                            &rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="card">
+            <h2 style="margin-bottom: 1rem;">Hoàn thành!</h2>
+            <div class="score-circle" id="final-score">0/0</div>
+            <p style="margin-bottom: 2rem; font-size: 1.1rem;" id="result-message">Bạn đã hoàn thành bài thi.</p>
+            <div style="display: flex; justify-content: center; gap: 1rem;">
+                <button class="btn btn-outline" onclick="restartChapter()">Làm lại chương này</button>
+                <button class="btn btn-primary" onclick="backToSelection()">Chọn chương khác</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let quizData = [];
+        let currentChapter = null;
+        let currentQuestions = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let hasAnsweredCurrent = false;
+
+        // Load data
+        fetch('quiz_parsed.json')
+            .then(response => response.json())
+            .then(data => {
+                // Filter out empty chapters or chapters without questions
+                quizData = data.filter(ch => ch.questions && ch.questions.length > 0);
+                renderChapters();
+            })
+            .catch(err => {
+                console.error('Error loading quiz data:', err);
+                document.getElementById('chapter-list').innerHTML = '<p style="color:red;">Lỗi tải dữ liệu. Hãy chắc chắn quiz_parsed.json nằm cùng thư mục.</p>';
+            });
+
+        function renderChapters() {
+            const listDiv = document.getElementById('chapter-list');
+            listDiv.innerHTML = '';
+
+            quizData.forEach((chapter, index) => {
+                const btn = document.createElement('button');
+                btn.className = 'chapter-btn';
+
+                // Clean up title
+                let title = chapter.title.replace(/^CÂU HỎI ÔN TẬP.*/i, '').trim();
+                if (!title) title = `Chương ${index + 1}`;
+
+                btn.innerHTML = `
+                <span>${title}</span>
+                <span class="count">${chapter.questions.length} câu</span>
+            `;
+                btn.onclick = () => startChapter(index);
+                listDiv.appendChild(btn);
+            });
+        }
+
+        // Array shuffle helper
+        function shuffleArray(array) {
+            let currentIndex = array.length, randomIndex;
+            while (currentIndex !== 0) {
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex--;
+                [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+            }
+            return array;
+        }
+
+        function startChapter(index) {
+            currentChapter = quizData[index];
+
+            let title = currentChapter.title.replace(/^CÂU HỎI ÔN TẬP.*/i, '').trim() || `Chương ${index + 1}`;
+            document.getElementById('chapter-title').textContent = title;
+
+            restartChapter();
+
+            document.getElementById('selection-screen').style.display = 'none';
+            document.getElementById('results-screen').style.display = 'none';
+            document.getElementById('quiz-app').style.display = 'block';
+        }
+
+        function restartChapter() {
+            // Deep copy questions so we can randomize them
+            currentQuestions = JSON.parse(JSON.stringify(currentChapter.questions));
+
+            // Randomize options for each question
+            currentQuestions.forEach(q => {
+                shuffleArray(q.options);
+            });
+
+            currentQuestionIndex = 0;
+            score = 0;
+            document.getElementById('results-screen').style.display = 'none';
+            document.getElementById('quiz-content').style.display = 'block';
+
+            loadQuestion();
+        }
+
+        function randomizeQuestions() {
+            shuffleArray(currentQuestions);
+            currentQuestionIndex = 0;
+            score = 0;
+            loadQuestion();
+        }
+
+        function backToSelection() {
+            document.getElementById('quiz-app').style.display = 'none';
+            document.getElementById('results-screen').style.display = 'none';
+            document.getElementById('selection-screen').style.display = 'block';
+        }
+
+        function loadQuestion() {
+            hasAnsweredCurrent = false;
+            const q = currentQuestions[currentQuestionIndex];
+
+            document.getElementById('question-text').textContent = q.text;
+
+            // Update stats
+            document.getElementById('question-counter').textContent = `Câu ${currentQuestionIndex + 1}/${currentQuestions.length}`;
+            document.getElementById('score-counter').textContent = `Điểm: ${score}`;
+            const progress = ((currentQuestionIndex) / currentQuestions.length) * 100;
+            document.getElementById('progress-bar').style.width = `${progress}%`;
+
+            // Render options
+            const optionsContainer = document.getElementById('options-container');
+            optionsContainer.innerHTML = '';
+
+            q.options.forEach((opt, idx) => {
+                const optDiv = document.createElement('div');
+                optDiv.className = 'option';
+
+                // Clean option text (remove A. B. C. D. if exists to rely purely on randomization)
+                let optText = opt.text.replace(/^[A-D][\.\)]\s*/, '');
+
+                optDiv.textContent = optText;
+                optDiv.onclick = () => selectOption(optDiv, opt.isCorrect);
+                optionsContainer.appendChild(optDiv);
+            });
+
+            // Reset UI elements
+            const feedback = document.getElementById('feedback-message');
+            feedback.style.display = 'none';
+            feedback.className = 'feedback';
+            document.getElementById('btn-next').disabled = true;
+        }
+
+        function selectOption(optDiv, isCorrect) {
+            if (hasAnsweredCurrent) return;
+            hasAnsweredCurrent = true;
+
+            const optionsContainer = document.getElementById('options-container');
+            const allOptions = optionsContainer.children;
+
+            // Disable all
+            for (let op of allOptions) {
+                op.classList.add('disabled');
+            }
+
+            const feedback = document.getElementById('feedback-message');
+            feedback.style.display = 'block';
+
+            if (isCorrect) {
+                optDiv.classList.add('correct');
+                feedback.textContent = 'Chính xác! 🎉';
+                feedback.className = 'feedback correct-feedback';
+                score++;
+                document.getElementById('score-counter').textContent = `Điểm: ${score}`;
+            } else {
+                optDiv.classList.add('wrong');
+                feedback.textContent = 'Sai rồi! 😢';
+                feedback.className = 'feedback wrong-feedback';
+
+                // Highlight correct answer
+                const q = currentQuestions[currentQuestionIndex];
+                Array.from(allOptions).forEach((child, idx) => {
+                    if (q.options[idx].isCorrect) {
+                        child.classList.add('correct');
+                    }
+                });
+            }
+
+            document.getElementById('btn-next').disabled = false;
+
+            // Update progress bar
+            const progress = ((currentQuestionIndex + 1) / currentQuestions.length) * 100;
+            document.getElementById('progress-bar').style.width = `${progress}%`;
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < currentQuestions.length) {
+                loadQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function showResults() {
+            document.getElementById('quiz-content').style.display = 'none';
+            document.getElementById('results-screen').style.display = 'block';
+
+            document.getElementById('final-score').textContent = `${score}/${currentQuestions.length}`;
+
+            const pct = (score / currentQuestions.length) * 100;
+            const msg = document.getElementById('result-message');
+            if (pct === 100) {
+                msg.textContent = 'Tuyệt vời! Bạn đã trả lời đúng tất cả.';
+            } else if (pct >= 80) {
+                msg.textContent = 'Rất tốt! Bạn nắm vững kiến thức phần này.';
+            } else if (pct >= 50) {
+                msg.textContent = 'Khá ổn! Hãy ôn tập thêm để đạt kết quả cao hơn.';
+            } else {
+                msg.textContent = 'Bạn cần xem lại toàn bộ kiến thức chương này.';
+            }
+        }
+    </script>
+
+</body>
+
+</html>
