@@ -42,49 +42,71 @@ let currentQuestion = null;
 
 for (let i = 0; i < paragraphs.length; i++) {
     const p = paragraphs[i];
-    const text = p.text;
+    let text = p.text.trim();
     const lowerText = text.toLowerCase();
 
-    if (lowerText.startsWith('chương ') || lowerText.startsWith('phần ') || lowerText === 'chương 1' || lowerText.includes('theo chương')) {
+    // 1. Chapter Detection
+    // Match "Chương X", "Phần X", or similar markers. 
+    // Also handle the header "CÂU HỎI ÔN TẬP..." by skipping or merging it.
+    if (lowerText.startsWith('chương ') || lowerText.startsWith('phần ') || /^chương\s+\d+/.test(lowerText)) {
+        // Skip the very first main title if it's already caught as a chapter
+        if (text.toUpperCase().includes('CÂU HỎI ÔN TẬP')) {
+            continue;
+        }
         currentChapter = { title: text, questions: [] };
         chapters.push(currentChapter);
         currentQuestion = null;
         continue;
     }
 
+    // 2. Question Detection
     if (lowerText.startsWith('câu ')) {
-        currentQuestion = { text: text, options: [] };
+        // Handle merged lines: "Câu 98. Question text? A. Option A"
+        let questionText = text;
+        let firstOption = null;
+
+        // Pattern to look for the first option inside a question line
+        const optionSplitMatch = text.match(/^(Câu\s+\d+[\s\S]*?[\?\.\:])\s*([A-D][\.\)])\s*(.*)$/i);
+        if (optionSplitMatch) {
+            questionText = optionSplitMatch[1].trim();
+            const optionLabel = optionSplitMatch[2];
+            const optionContent = optionSplitMatch[3].trim();
+            firstOption = { text: optionLabel + ' ' + optionContent, isCorrect: p.highlight };
+        }
+
+        currentQuestion = { text: questionText, options: [] };
         if (!currentChapter) {
-            currentChapter = { title: 'Unknown', questions: [] };
+            currentChapter = { title: 'Chương 1', questions: [] };
             chapters.push(currentChapter);
         }
         currentChapter.questions.push(currentQuestion);
+
+        if (firstOption) {
+            currentQuestion.options.push(firstOption);
+        }
         continue;
     }
 
+    // 3. Option or continuation Detection
     if (currentQuestion) {
-        // Assume anything after a 'Câu XYZ' is an option, UNLESS currentQuestion.text doesn't end with a typical question mark/colon 
-        // AND the current line is long or doesn't look like an option.
-        // But actually, in this doc, options are often just listed on new lines immediately. 
-        // Let's check if there are 4 options usually.
-        // To be safe, any new paragraph is an option if we already have the question text.
-        // Wait, sometimes question text is spread. Let's just treat EVERY new paragraph as an option.
+        // If it starts with A. B. C. D. or A) B) C) D)
+        const isExplicitOption = /^[A-D][\.\)]/.test(text);
 
-        let isOption = true;
-        // If the paragraph is not highlighted, doesn't start with A/B/C/D, and the question text doesn't end with a ?, ., or :
-        // AND it's the very first line after the question, maybe it's a continuation?
-        if (currentQuestion.options.length === 0 && !p.highlight && !/^[A-D][\.\)]/.test(text.trim())) {
+        // If the paragraph is highlighted, it's almost certainly an option (the correct one)
+        // OR if we already have the question text ending in punctuation
+        let isOption = isExplicitOption || p.highlight;
+
+        if (!isOption && currentQuestion.options.length === 0) {
             const qTextEndsWithPunctuation = /[\?\.\:]\s*$/.test(currentQuestion.text);
             if (!qTextEndsWithPunctuation) {
-                isOption = false;
+                // Continuation of question text
+                currentQuestion.text += ' ' + text;
+                continue;
             }
         }
 
-        if (isOption) {
-            currentQuestion.options.push({ text: text, isCorrect: p.highlight });
-        } else {
-            currentQuestion.text += ' ' + text;
-        }
+        // Add as option
+        currentQuestion.options.push({ text: text, isCorrect: p.highlight });
     }
 }
 

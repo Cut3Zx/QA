@@ -20,6 +20,10 @@
     "highlight": true
   },
   {
+    "text": "nào",
+    "highlight": false
+  },
+  {
     "text": "tích luỹ nguyên thuỷ tư bản chù nghĩa.",
     "highlight": true
   },
@@ -38,6 +42,18 @@
   {
     "text": "(1) chủ quan, (2) vận dụng",
     "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "tìm ra các quy luật kinh tế và sự tác động của nó nhằm ứng dụng một cách có hiệu quả trong thực tiễn.",
+    "highlight": false
+  },
+  {
+    "text": "tìm ra bản chất của lực lượng sản xuất.",
+    "highlight": false
   },
   {
     "text": "tìm ra bản chất của quan hệ sản xuất xã hội.",
@@ -76,8 +92,20 @@
     "highlight": true
   },
   {
+    "text": "quá trình nghiên cứu đi từ trừu tượng đến cụ thể, nêu lên những khái niệm, phạm trù, vạch ra những mối quan hệ giữa chúng, gạt bỏ những bộ phận phức tạp của đối tượng nghiên cứu.",
+    "highlight": false
+  },
+  {
+    "text": "quá trình nghiên cứu đi từ cụ thể đến trừu tượng, nhờ đó nêu lên những khái niệm, phạm trù, vạch ra những mối quan hệ giữa chúng và ngược lại.",
+    "highlight": false
+  },
+  {
     "text": "gạt bỏ các yếu tố ngẫu nhiên, tạm thời, gián tiếp, trên cơ sở đó tách ra được những dấu hiệu điển hình, bền vững, ổn định, trực tiếp của đối tượng nghiên cứu.",
     "highlight": true
+  },
+  {
+    "text": "quá trình nghiên cứu đi từ trừu tượng đến cụ thể, nhờ đó nêu lên những khái niệm, phạm trù, vạch ra những mối quan hệ giữa chúng và ngược lại.",
+    "highlight": false
   },
   {
     "text": "trừu tượng hóa khoa học.",
@@ -92,8 +120,20 @@
     "highlight": true
   },
   {
+    "text": "chủ quan, tồn tại trong mọi phương thức sản xuất.",
+    "highlight": false
+  },
+  {
+    "text": "khách quan, tồn tại trong mọi phương thức sản xuất.",
+    "highlight": false
+  },
+  {
     "text": "những mối liên hệ phản ánh bản chất, khách quan, lặp đi lặp lại của các hiện tượng và quá trình kinh tế.",
     "highlight": true
+  },
+  {
+    "text": "phản ánh bản chất của các hiện tượng trong xã hội.",
+    "highlight": false
   },
   {
     "text": "Phát hiện ra các quy luật kinh tế chi phối các quan hệ giữa người với người trong sản xuất và trao đổi",
@@ -148,6 +188,10 @@
     "highlight": false
   },
   {
+    "text": "?",
+    "highlight": false
+  },
+  {
     "text": "tổng hoà các mối quan hệ liên quan đến trao đổi, mua bán hàng hóa, dịch vụ trong xã hội.",
     "highlight": true
   },
@@ -164,6 +208,10 @@
     "highlight": true
   },
   {
+    "text": "?",
+    "highlight": false
+  },
+  {
     "text": "lao động cụ thể và lao động trừu tượng.",
     "highlight": true
   },
@@ -178,6 +226,10 @@
   {
     "text": "thoả mãn nhu cầu của người mua.",
     "highlight": true
+  },
+  {
+    "text": "gì?",
+    "highlight": false
   },
   {
     "text": "giá trị sử dụng của hàng hóa.",
@@ -212,8 +264,16 @@
     "highlight": true
   },
   {
+    "text": "?",
+    "highlight": false
+  },
+  {
     "text": "hình thái giá trị giản đơn hay ngẫu nhiên",
     "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
   },
   {
     "text": "tổng số sản phẩm tăng và lượng giá trị trong một đơn vị hàng hóa không đổi.",
@@ -222,6 +282,10 @@
   {
     "text": "Lượng lao động đã hao phí để sản xuất ra hàng hóa đó",
     "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
   },
   {
     "text": "có thể cất trữ được, tồn tại ở các dạng vật thể, thực hiện giá trị sử dụng và giá trị cùng diễn ra.",
@@ -238,6 +302,10 @@
   {
     "text": "C. Mác",
     "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
   },
   {
     "text": "Sự vận động của giá cả xung quanh giá trị",
@@ -360,6 +428,10 @@
     "highlight": true
   },
   {
+    "text": "?",
+    "highlight": false
+  },
+  {
     "text": "tỉ lệ thuận.",
     "highlight": false
   },
@@ -397,6 +469,786 @@
   },
   {
     "text": "Vai trò của các yếu tố được trao đổi, mua bán",
+    "highlight": true
+  },
+  {
+    "text": "lượng tiền tệ cần thiết cho lưu thông trong một thời gian nhất định.",
+    "highlight": true
+  },
+  {
+    "text": "nơi người mua và người bán trực tiếp thoả thuận giá cả của hàng hóa.",
+    "highlight": true
+  },
+  {
+    "text": "Trong cùng một thời gian, một hoạt động lao động phức tạp sẽ tạo ra được nhiều lượng giá trị hơn so với lao động giản đơn",
+    "highlight": true
+  },
+  {
+    "text": "Trình độ khoa học công nghệ",
+    "highlight": true
+  },
+  {
+    "text": "A. giá cả &lt; giá trị.",
+    "highlight": true
+  },
+  {
+    "text": "Giá trị trao đổi",
+    "highlight": true
+  },
+  {
+    "text": "trả nợ, nộp thuế, trả tiền mua hàng chịu,...",
+    "highlight": true
+  },
+  {
+    "text": "Thúc đẩy sự phát triển nền kinh tế thị trường",
+    "highlight": true
+  },
+  {
+    "text": "giá cả thị trường.",
+    "highlight": true
+  },
+  {
+    "text": "người mua với người bán.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "tổng số sản phẩm tăng 2 lần, tổng giá trị sản phẩm không đổi và lượng giá trị trong một đơn vị hàng hóa giảm xuống 2 lần.",
+    "highlight": true
+  },
+  {
+    "text": "cạnh tranh lành mạnh.",
+    "highlight": true
+  },
+  {
+    "text": "Giá trị của hàng hóa, quy luật cung - cầu, quy luật cạnh tranh và giá trị của tiền tệ",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "có giá thấp đến nơi có giá cao.",
+    "highlight": true
+  },
+  {
+    "text": "Cung tăng, cầu giảm",
+    "highlight": true
+  },
+  {
+    "text": "Quá trình phát triển của sản xuất và trao đổi hàng hóa",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "Lịch sử",
+    "highlight": true
+  },
+  {
+    "text": "giá trị.",
+    "highlight": true
+  },
+  {
+    "text": "quyền sử dụng đất đai, thương hiệu, chứng khóan và một số giấy tờ có giá khác.",
+    "highlight": true
+  },
+  {
+    "text": "Hàng hóa, tiền tệ, người mua, người bán",
+    "highlight": true
+  },
+  {
+    "text": "A. kích thích lực lượng sản xuất phát triển.",
+    "highlight": true
+  },
+  {
+    "text": "lao động trừu tượng.",
+    "highlight": true
+  },
+  {
+    "text": "người mua và người bán đều phải thông qua môi giới trung gian.",
+    "highlight": true
+  },
+  {
+    "text": "Giá cả = giá trị",
+    "highlight": true
+  },
+  {
+    "text": "Đối tượng hàng hóa đưa ra trao đổi, mua bán",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "thúc đẩy phân công lao động xã hội, chuyên môn hóa sản xuất và mở rộng giao lưu kinh tế.",
+    "highlight": true
+  },
+  {
+    "text": "A. trao đổi, mua bán.",
+    "highlight": true
+  },
+  {
+    "text": "có đủ giá trị, tiền vàng hoặc những đồng tiền được công nhận là phương tiện thanh toán quốc tế.",
+    "highlight": true
+  },
+  {
+    "text": "tổng số sản phẩm tăng lên 2 lần và lượng giá trị trong một đơn vị hàng hóa cũng giảm xuống 2 lần.",
+    "highlight": true
+  },
+  {
+    "text": "của cải.",
+    "highlight": true
+  },
+  {
+    "text": "Nơi người mua được lựa chọn và so sánh giá cả của hàng hóa",
+    "highlight": true
+  },
+  {
+    "text": "Lao động không phải trải qua huấn luyện, đào tạo, lao động thành thạo",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "sản xuất hàng hóa.",
+    "highlight": true
+  },
+  {
+    "text": "tìm nơi đầu tư có lợi nhất.",
+    "highlight": true
+  },
+  {
+    "text": "Hình thái chung của giá trị",
+    "highlight": true
+  },
+  {
+    "text": "Tổng số sản phẩm tăng",
+    "highlight": true
+  },
+  {
+    "text": "Là loại hàng hóa đặc biệt, làm vật ngang giá chung cho thế giới hàng hóa và phản ánh lao động xã hội",
+    "highlight": true
+  },
+  {
+    "text": "hao phí lao động cá biệt nhỏ hơn hoặc bằng hao phí lao động xã hội cần thiết.",
+    "highlight": true
+  },
+  {
+    "text": "Hao phí lao động xã hội cần thiết",
+    "highlight": true
+  },
+  {
+    "text": "có sự đa dạng của các chủ thể kinh tế, nhiều hình thức sở hữu; thị trường đóng vai trò quyết định trong việc phân bổ các nguồn lực xã hội; giá cả được hình thành theo nguyên tắc thị trường; là nền kinh tế mở.",
+    "highlight": true
+  },
+  {
+    "text": "(1) phân chia, (2) khác nhau, (3) chuyên môn hóa",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "tổng số sản phẩm tăng và lượng giá trị trong một đơn vị hàng hóa giảm.",
+    "highlight": true
+  },
+  {
+    "text": "Đều là sản phẩm của lao động, kết tinh một lượng lao động xã hội bằng nhau",
+    "highlight": true
+  },
+  {
+    "text": "lao động trải qua huấn luyện, đào tạo, lao động thành thạo.",
+    "highlight": true
+  },
+  {
+    "text": "A. sản xuất.",
+    "highlight": true
+  },
+  {
+    "text": "Phân hóa giàu - nghèo, tiềm ẩn nguy cơ khủng hoảng kinh tế, gây ô nhiễm môi trường",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "sản phẩm của lao động, có thể thoả mãn một nhu cầu nào đó của con người thông qua trao đổi, mua bán.",
+    "highlight": true
+  },
+  {
+    "text": "Hao phí lao động của người sản xuất",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "Môi giới trong quá trình trao đổi hàng hóa",
+    "highlight": true
+  },
+  {
+    "text": "Mua bán, thanh toán quốc tế",
+    "highlight": true
+  },
+  {
+    "text": "sự biểu hiện bằng tiền của giá trị hàng hóa.",
+    "highlight": true
+  },
+  {
+    "text": "Thu được lợi nhuận siêu ngạch",
+    "highlight": true
+  },
+  {
+    "text": "cung và cầu hàng hóa trên thị trường.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "tổng số sản phẩm tăng, tổng giá trị sản phẩm tăng và lượng giá trị trong một đơn vị hàng hóa không đổi.",
+    "highlight": true
+  },
+  {
+    "text": "Luôn tạo động lực cho chủ thể kinh tế, phát huy tốt tiềm năng của mọi chủ thể kinh tế và tạo ra các phương thức để thoả mãn tối đa nhu cầu của con người",
+    "highlight": true
+  },
+  {
+    "text": "tăng năng suất lao động.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "rút ngắn thời gian lao động tất yếu trong khi độ dài ngày lao động không đổi hoặc rút ngắn.",
+    "highlight": true
+  },
+  {
+    "text": "lợi nhuận bình quân.",
+    "highlight": true
+  },
+  {
+    "text": "vai trò của các bộ phận tư bản trong quá trình sản xuất giá trị thặng dư.",
+    "highlight": true
+  },
+  {
+    "text": "A. tăng lên.",
+    "highlight": true
+  },
+  {
+    "text": "A. 200%.",
+    "highlight": true
+  },
+  {
+    "text": "phương thức chuyển giá trị của các bộ phận tư bản sang sản phẩm.",
+    "highlight": true
+  },
+  {
+    "text": "Thời gian sản xuất và thời gian lưu thông để thực hiện một vòng tuần hoàn.",
+    "highlight": true
+  },
+  {
+    "text": "v không tăng",
+    "highlight": true
+  },
+  {
+    "text": "Biến một phần giá trị thặng dư thành tư bản",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "nhà tư bản nông nghiệp được hưởng trong thời hạn thuê đất.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "tăng phương tiện bóc lột lao động làm thuê.",
+    "highlight": true
+  },
+  {
+    "text": "do sử dụng và tác động của tự nhiên gây ra.",
+    "highlight": true
+  },
+  {
+    "text": "Quá trình sản xuất liên tục được lặp đi lặp lại không ngừng",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "ảnh hưởng tiến bộ kĩ thuật.",
+    "highlight": true
+  },
+  {
+    "text": "Tư bản cho vay",
+    "highlight": true
+  },
+  {
+    "text": "Đều làm tăng quy mô tư bản cá biệt",
+    "highlight": true
+  },
+  {
+    "text": "Tiền lương",
+    "highlight": true
+  },
+  {
+    "text": "Tỉ suất lợi nhuận",
+    "highlight": true
+  },
+  {
+    "text": "Vai trò của từng bộ phận tư bản trong việc sản xuất ra giá trị thặng dư",
+    "highlight": true
+  },
+  {
+    "text": "Tích luỹ cơ bản là sự tiết kiệm tư bản.",
+    "highlight": true
+  },
+  {
+    "text": "Nâng cao trình độ khai thác sức lao động",
+    "highlight": true
+  },
+  {
+    "text": "tăng nhanh.",
+    "highlight": true
+  },
+  {
+    "text": "Phần giá trị thặng dư ngoài lợi nhuận bình quân khi canh tác trên tất cả các loại đất kể cả đất xấu nhất",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "p = m",
+    "highlight": true
+  },
+  {
+    "text": "Tăng lên",
+    "highlight": true
+  },
+  {
+    "text": "Máy móc thiết bị, nhà xưởng",
+    "highlight": true
+  },
+  {
+    "text": "P’",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "trình độ bóc lột của tư bản đối với lao động làm thuê.",
+    "highlight": true
+  },
+  {
+    "text": "hiệu quả sử dụng vốn đầu tư.",
+    "highlight": true
+  },
+  {
+    "text": "lao động không được trả công.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "lợi nhuận siêu ngạch do đầu tư thêm tư bản để thâm canh, làm tăng độ màu mỡ của đất tạo ra.",
+    "highlight": true
+  },
+  {
+    "text": "Là giá trị mang lại giá trị thặng dư",
+    "highlight": true
+  },
+  {
+    "text": "tư bản mà giá trị của nó không thay đổi về lượng và được chuyển nguyên sang sản phẩm.",
+    "highlight": true
+  },
+  {
+    "text": "giá cả của sức lao động.",
+    "highlight": true
+  },
+  {
+    "text": "Giá cả của hàng hóa sức lao động",
+    "highlight": true
+  },
+  {
+    "text": "hao mòn vô hình.",
+    "highlight": true
+  },
+  {
+    "text": "kéo dài ngày lao động, thời gian lao động tất yếu không thay đổi.",
+    "highlight": true
+  },
+  {
+    "text": "Tiền lương, tiền thưởng",
+    "highlight": true
+  },
+  {
+    "text": "Phương thức chu chuyển giá trị của tư bản sản xuất vào giá trị sản phẩm",
+    "highlight": true
+  },
+  {
+    "text": "Sự vận động liên tục qua các hình thức khác nhau để trở về hình thái ban đầu cùng với lượng giá trị thặng dư",
+    "highlight": true
+  },
+  {
+    "text": "Sự tăng lên của quy mô tư bản cá biệt mà không làm tăng quy mô tư bản xã hội do hợp nhất các tư bản cá biệt vào một chỉnh thể tạo thành một tư bản cá biệt lớn hơn",
+    "highlight": true
+  },
+  {
+    "text": "quy mô của tư bản ứng trước.",
+    "highlight": false
+  },
+  {
+    "text": "tăng năng suất lao động.",
+    "highlight": true
+  },
+  {
+    "text": "A. nguyên, nhiên, vật liệu và giá trị sức lao động.",
+    "highlight": true
+  },
+  {
+    "text": "Cạnh tranh giữa các ngành",
+    "highlight": true
+  },
+  {
+    "text": "B.tuyệt đối.",
+    "highlight": false
+  },
+  {
+    "text": "C.chênh lệch I.",
+    "highlight": false
+  },
+  {
+    "text": "D. chênh lệch II.",
+    "highlight": true
+  },
+  {
+    "text": "một phần của giá trị thặng dư được tạo ra trong quá trình sản xuất.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "xấu.",
+    "highlight": true
+  },
+  {
+    "text": "Quy mô bóc lột của tư bản đối với lao động làm thuê",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "hao phí lao động quá khứ và phần lao động sống được trả công.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "bộ phận giá trị mới dôi ra ngoài giá trị sức lao động do công nhân tạo ra.",
+    "highlight": true
+  },
+  {
+    "text": "thấp hơn tỉ suất lợi nhuận bình quân và lớn hơn 0.",
+    "highlight": true
+  },
+  {
+    "text": "Tư bản là giá trị đem lại giá trị thặng dư bằng cách bóc lột lao động làm thuê.",
+    "highlight": true
+  },
+  {
+    "text": "sự tăng thêm quy mô của tư bản cá biệt bằng cách tư bản hóa giá trị thặng dư.",
+    "highlight": true
+  },
+  {
+    "text": "Cấu tạo giá trị khi phản ánh sự biến đổi của cấu tạo kĩ thuật của tư bản",
+    "highlight": true
+  },
+  {
+    "text": "B.Cấu tạo kĩ thuật",
+    "highlight": false
+  },
+  {
+    "text": "C.Sự phân chia các yếu tố cấu thành tư bản",
+    "highlight": false
+  },
+  {
+    "text": "D.Cấu tạo giá trị",
+    "highlight": false
+  },
+  {
+    "text": "kĩ thuật công nghệ.",
+    "highlight": true
+  },
+  {
+    "text": "Năng suất lao động xã hội, nhất là trong những ngành sản xuất tư liệu sinh hoạt",
+    "highlight": true
+  },
+  {
+    "text": "Tư bản cố định là nguồn gốc của giá trị thặng dư.",
+    "highlight": true
+  },
+  {
+    "text": "người lao động được tự do về thân thể và không có đủ những tư liệu sản xuất cần thiết để tự kết hợp với sức lao động của mình để tạo ra hàng hóa.",
+    "highlight": true
+  },
+  {
+    "text": "Mức doanh lợi đầu tư tư bản",
+    "highlight": true
+  },
+  {
+    "text": "hiệu quả sử dụng lao động sống.",
+    "highlight": true
+  },
+  {
+    "text": "Khấu hao nhanh",
+    "highlight": true
+  },
+  {
+    "text": "tích tụ tư bản.",
+    "highlight": true
+  },
+  {
+    "text": "A. lợi nhuận bình quân.",
+    "highlight": true
+  },
+  {
+    "text": "lợi nhuận độc quyền.",
+    "highlight": false
+  },
+  {
+    "text": "lợi nhuận ngân hàng.",
+    "highlight": false
+  },
+  {
+    "text": "lợinhuậnsiêungạch.",
+    "highlight": false
+  },
+  {
+    "text": "Máy móc là tiền đề vật chất cho việc tạo ra giá trị thặng dư.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "một phần giá trị thặng dư mà tư bản công nghiệp trích trong lợi nhuận bình quân của mình để trả cho chủ ruộng đất.",
+    "highlight": true
+  },
+  {
+    "text": "Một phần giá trị thặng dư trả cho nhà tư bản thương nghiệp trong việc tiêu thụ hàng hóa",
+    "highlight": true
+  },
+  {
+    "text": "Giá cả = giá trị mới do sức lao động tạo ra",
+    "highlight": true
+  },
+  {
+    "text": "được lao động cụ thể của người sản xuất hàng hóa bảo tồn và chuyển vào giá trị sản xuất của sản phẩm mới.",
+    "highlight": true
+  },
+  {
+    "text": "Cạnh tranh giữa các ngành",
+    "highlight": true
+  },
+  {
+    "text": "chủ nghĩa tư bản độc quyền.",
+    "highlight": true
+  },
+  {
+    "text": "Rút ngắn thời gian lao động tất yếu, giữ nguyên hoặc rút ngắn độ dài ngày lao động",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "B. tách rời giữa quyền sử dụng và quyền sở hữu - che giấu việc bóc lột giá trị thặng dư một cách tinh vi nhất.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "giá trị thặng dư được tư bản hóa.",
+    "highlight": true
+  },
+  {
+    "text": "trình độ ứng dụng khoa học - kĩ thuật vào sản xuất.",
+    "highlight": true
+  },
+  {
+    "text": "tỉ lệ phân chia giữa tích luỹ và tiêu dùng.",
+    "highlight": true
+  },
+  {
+    "text": "giá trị siêu ngạch.",
+    "highlight": true
+  },
+  {
+    "text": "Tạo ra giá trị nhiều hơn giá trị hàng hóa thông thường",
+    "highlight": true
+  },
+  {
+    "text": "Quan hệ sản xuất xã hội",
+    "highlight": true
+  },
+  {
+    "text": "Khi sử dụng nó thì tạo ra được một lượng giá trị lớn hơn giá trị bản thân nó.",
+    "highlight": true
+  },
+  {
+    "text": "Người lao động được tự do về thân thể và không có đủ những tư liệu sản xuất cần thiết để tự kết hợp với sức lao động của mình để tạo ra hàng hóa để bán.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "trên tất cả các loại mộng đất.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "chi phí sản xuất cộng với lợi nhuận bình quân.",
+    "highlight": true
+  },
+  {
+    "text": "thời gian sản xuất và thời gian lưu thông.",
+    "highlight": true
+  },
+  {
+    "text": "Lợi nhuận siêu ngạch do sản xuất trên ruộng đất tốt và độ màu mỡ cao, điều kiện tự nhiên thuận lợi tạo ra",
+    "highlight": true
+  },
+  {
+    "text": "Thời gian lao động cần thiết thay đổi.",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "sử dụng máy móc thiết bị công nghệ hiện đại.",
+    "highlight": true
+  },
+  {
+    "text": "Bằng giá trị",
+    "highlight": true
+  },
+  {
+    "text": "T-H-T’",
+    "highlight": true
+  },
+  {
+    "text": "Sản xuất ra hàng hóa chất lượng tốt đáp ứng nhu cầu của người tiêu dùng",
+    "highlight": true
+  },
+  {
+    "text": "được bảo tồn không tăng thêm giá trị.",
+    "highlight": true
+  },
+  {
+    "text": "Ruộng đất đã được đầu tư, thâm canh.",
+    "highlight": true
+  },
+  {
+    "text": "tư bản trong lĩnh vực lưu thông hàng hóa.",
+    "highlight": true
+  },
+  {
+    "text": "Một phần của giá trị thặng dư",
+    "highlight": true
+  },
+  {
+    "text": "tăng năng suất lao động.",
+    "highlight": true
+  },
+  {
+    "text": "Cạnh tranh",
+    "highlight": true
+  },
+  {
+    "text": "Lợi nhuận là hiệu số giữa tổng doanh thu trừ đi tổng chi phí.",
+    "highlight": true
+  },
+  {
+    "text": "tư bản ứng trước.",
+    "highlight": true
+  },
+  {
+    "text": "?A.",
+    "highlight": false
+  },
+  {
+    "text": "cung &gt; cầu, lợi tức giảm.",
+    "highlight": true
+  },
+  {
+    "text": "Giá trị sức lao động không đổi",
+    "highlight": true
+  },
+  {
+    "text": "Lợi nhuận bằng nhau của những tư bản như nhau đầu tư vào các ngành khác nhau",
+    "highlight": true
+  },
+  {
+    "text": "?",
+    "highlight": false
+  },
+  {
+    "text": "tăng năng suất lao động trong các ngành sản xuất ra tư liệu sinh hoạt.",
+    "highlight": true
+  },
+  {
+    "text": "lợi nhuận bình quân.",
+    "highlight": true
+  },
+  {
+    "text": "Không tăng lên",
     "highlight": true
   }
 ]

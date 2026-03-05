@@ -1,7 +1,12 @@
 [
   {
-    "title": "CÂU HỎI ÔN TẬP MÔN KINH TẾ CHÍNH TRỊ MÁC - LÊNIN THEO CHƯƠNG",
-    "questions": []
+    "title": "Chương 1",
+    "questions": [
+      {
+        "text": "CÂU HỎI ÔN TẬP MÔN KINH TẾ CHÍNH TRỊ MÁC - LÊNIN THEO CHƯƠNG",
+        "options": []
+      }
+    ]
   },
   {
     "title": "Chương 1",
@@ -70,8 +75,12 @@
         ]
       },
       {
-        "text": "Câu 4. C. Mác đánh giá người sáng lập ra kinh tế chính trị cố điên Anh là ai?",
+        "text": "Câu 4.",
         "options": [
+          {
+            "text": "C. Mác đánh giá người sáng lập ra kinh tế chính trị cố điên Anh là ai?",
+            "isCorrect": false
+          },
           {
             "text": "Thomas Malthus",
             "isCorrect": false
@@ -91,7 +100,7 @@
         ]
       },
       {
-        "text": "Câu 5. Chủ nghĩa trọng thương ra đời trong thời kì chủ nghĩa tư bản tự do cạnh tranh.",
+        "text": "Câu 5. Chủ nghĩa trọng thương ra đời trong thời kì nào chủ nghĩa tư bản tự do cạnh tranh.",
         "options": [
           {
             "text": "chủ nghĩa tư bản độc quyền.",
@@ -150,12 +159,8 @@
         ]
       },
       {
-        "text": "Câu 8. Điền từ ngữ thích hợp vào chỗ chấm:",
+        "text": "Câu 8. Điền từ ngữ thích hợp vào chỗ chấm: Quy luật kinh tế tồn tại ...(1)..., không phụ thuộc vào ý chí của con người, con người không thể ...(2)... quy luật kinh tế, nhưng có thể ...(3)... và ...(4)... quy luật kinh tế.",
         "options": [
-          {
-            "text": "Quy luật kinh tế tồn tại ...(1)..., không phụ thuộc vào ý chí của con người, con người không thể ...(2)... quy luật kinh tế, nhưng có thể ...(3)... và ...(4)... quy luật kinh tế.",
-            "isCorrect": false
-          },
           {
             "text": "(1) chủ quan, (2) bỏ qua, (3) nhận thức, (4) hành động",
             "isCorrect": false
@@ -175,12 +180,8 @@
         ]
       },
       {
-        "text": "Câu 9. Điền từ ngữ thích hợp vào chỗ chấm:",
+        "text": "Câu 9. Điền từ ngữ thích hợp vào chỗ chấm: Chính sách kinh tế là sản phẩm ...(1)... của con người được hình thành trên cơ sở ...(2)... các quy luật kinh tế.",
         "options": [
-          {
-            "text": "Chính sách kinh tế là sản phẩm ...(1)... của con người được hình thành trên cơ sở ...(2)... các quy luật kinh tế.",
-            "isCorrect": false
-          },
           {
             "text": "(1) khách quan, (2) vận dụng",
             "isCorrect": false
@@ -200,10 +201,14 @@
         ]
       },
       {
-        "text": "Câu 10. Kinh tế chính trị Mác - Lênin có nhiệm vụ nghiên cứu là tìm ra các quy luật kinh tế và sự tác động của nó nhằm ứng dụng một cách có hiệu quả trong thực tiễn.",
+        "text": "Câu 10. Kinh tế chính trị Mác - Lênin có nhiệm vụ nghiên cứu là ?",
         "options": [
           {
-            "text": "tìm ra bản chất của lực lượng sản xuất.",
+            "text": "A. tìm ra các quy luật kinh tế và sự tác động của nó nhằm ứng dụng một cách có hiệu quả trong thực tiễn.",
+            "isCorrect": false
+          },
+          {
+            "text": "B. tìm ra bản chất của lực lượng sản xuất.",
             "isCorrect": false
           },
           {
@@ -381,18 +386,22 @@
         ]
       },
       {
-        "text": "Câu 19. Phương pháp trừu tượng hóa khoa học trong nghiên cứu kinh tế chính trị Mác - Lênin đòi hỏi quá trình nghiên cứu đi từ trừu tượng đến cụ thể, nêu lên những khái niệm, phạm trù, vạch ra những mối quan hệ giữa chúng, gạt bỏ những bộ phận phức tạp của đối tượng nghiên cứu.",
+        "text": "Câu 19. Phương pháp trừu tượng hóa khoa học trong nghiên cứu kinh tế chính trị Mác - Lênin đòi hỏi",
         "options": [
           {
-            "text": "quá trình nghiên cứu đi từ cụ thể đến trừu tượng, nhờ đó nêu lên những khái niệm, phạm trù, vạch ra những mối quan hệ giữa chúng và ngược lại.",
+            "text": "A. quá trình nghiên cứu đi từ trừu tượng đến cụ thể, nêu lên những khái niệm, phạm trù, vạch ra những mối quan hệ giữa chúng, gạt bỏ những bộ phận phức tạp của đối tượng nghiên cứu.",
             "isCorrect": false
           },
           {
-            "text": "gạt bỏ các yếu tố ngẫu nhiên, tạm thời, gián tiếp, trên cơ sở đó tách ra được những dấu hiệu điển hình, bền vững, ổn định, trực tiếp của đối tượng nghiên cứu.",
+            "text": "B. quá trình nghiên cứu đi từ cụ thể đến trừu tượng, nhờ đó nêu lên những khái niệm, phạm trù, vạch ra những mối quan hệ giữa chúng và ngược lại.",
+            "isCorrect": false
+          },
+          {
+            "text": "C. gạt bỏ các yếu tố ngẫu nhiên, tạm thời, gián tiếp, trên cơ sở đó tách ra được những dấu hiệu điển hình, bền vững, ổn định, trực tiếp của đối tượng nghiên cứu.",
             "isCorrect": true
           },
           {
-            "text": "quá trình nghiên cứu đi từ trừu tượng đến cụ thể, nhờ đó nêu lên những khái niệm, phạm trù, vạch ra những mối quan hệ giữa chúng và ngược lại.",
+            "text": "D. quá trình nghiên cứu đi từ trừu tượng đến cụ thể, nhờ đó nêu lên những khái niệm, phạm trù, vạch ra những mối quan hệ giữa chúng và ngược lại.",
             "isCorrect": false
           }
         ]
@@ -457,18 +466,22 @@
         ]
       },
       {
-        "text": "Câu 23. Quy luật kinh tế là chủ quan, tồn tại trong mọi phương thức sản xuất.",
+        "text": "Câu 23. Quy luật kinh tế là",
         "options": [
           {
-            "text": "khách quan, tồn tại trong mọi phương thức sản xuất.",
+            "text": "A. chủ quan, tồn tại trong mọi phương thức sản xuất.",
             "isCorrect": false
           },
           {
-            "text": "những mối liên hệ phản ánh bản chất, khách quan, lặp đi lặp lại của các hiện tượng và quá trình kinh tế.",
+            "text": "B. khách quan, tồn tại trong mọi phương thức sản xuất.",
+            "isCorrect": false
+          },
+          {
+            "text": "C. những mối liên hệ phản ánh bản chất, khách quan, lặp đi lặp lại của các hiện tượng và quá trình kinh tế.",
             "isCorrect": true
           },
           {
-            "text": "phản ánh bản chất của các hiện tượng trong xã hội.",
+            "text": "D. phản ánh bản chất của các hiện tượng trong xã hội.",
             "isCorrect": false
           }
         ]
@@ -584,10 +597,10 @@
     "title": "Chương 2",
     "questions": [
       {
-        "text": "Câu 1. Giá cả hàng hóa được thể hiện như thế nào khi cung &lt; cầu?",
+        "text": "Câu 1. Giá cả hàng hóa được thể hiện như thế nào khi cung < cầu?",
         "options": [
           {
-            "text": "Giá cả &gt; giá trị",
+            "text": "Giá cả > giá trị",
             "isCorrect": true
           },
           {
@@ -595,7 +608,7 @@
             "isCorrect": false
           },
           {
-            "text": "Giá cả &lt; giá trị",
+            "text": "Giá cả < giá trị",
             "isCorrect": false
           },
           {
@@ -710,8 +723,12 @@
         ]
       },
       {
-        "text": "Câu 7. Theo nghĩa trừu tượng, thị trường là tổng thể các yếu tố kinh tế vận động theo quy luật của thị trường.",
+        "text": "Câu 7. Theo nghĩa trừu tượng, thị trường là ?",
         "options": [
+          {
+            "text": "tổng thể các yếu tố kinh tế vận động theo quy luật của thị trường.",
+            "isCorrect": false
+          },
           {
             "text": "tổng hoà các mối quan hệ liên quan đến trao đổi, mua bán hàng hóa, dịch vụ trong xã hội.",
             "isCorrect": true
@@ -748,12 +765,8 @@
         ]
       },
       {
-        "text": "Câu 9. Điền từ ngữ thích họp vào chỗ chấm:",
+        "text": "Câu 9. Điền từ ngữ thích họp vào chỗ chấm: Quy luật cạnh tranh là quy luật kinh tế ...(1)... một cách ...(2)... mối quan hệ ...(3)... kinh tế giữa các chủ thể trong sản xuất và trao đổi hàng hóa.",
         "options": [
-          {
-            "text": "Quy luật cạnh tranh là quy luật kinh tế ...(1)... một cách ...(2)... mối quan hệ ...(3)... kinh tế giữa các chủ thể trong sản xuất và trao đổi hàng hóa.",
-            "isCorrect": false
-          },
           {
             "text": "(1) điều tiết, (2) khách quan, (3) cạnh tranh",
             "isCorrect": false
@@ -794,8 +807,12 @@
         ]
       },
       {
-        "text": "Câu 11. Tính hai mặt của lao động sản xuất hàng hóa là lao động giản đơn và lao động phức tạp.",
+        "text": "Câu 11. Tính hai mặt của lao động sản xuất hàng hóa là ?",
         "options": [
+          {
+            "text": "lao động giản đơn và lao động phức tạp.",
+            "isCorrect": false
+          },
           {
             "text": "lao động quá khứ và lao động sống.",
             "isCorrect": false
@@ -874,8 +891,12 @@
         ]
       },
       {
-        "text": "Câu 15. Lao động cụ thể tạo ra giá trị trao đổi của hàng hóa.",
+        "text": "Câu 15. Lao động cụ thể tạo ra gì?",
         "options": [
+          {
+            "text": "giá trị trao đổi của hàng hóa.",
+            "isCorrect": false
+          },
           {
             "text": "giá trị sử dụng của hàng hóa.",
             "isCorrect": true
@@ -915,11 +936,11 @@
         "text": "Câu 17. Cơ sở để hàng hóa A có thể trao đổi được với hàng hóa B là",
         "options": [
           {
-            "text": "A. lượng lao động hao phí của hàng hóa A &gt; hàng hóa B.",
+            "text": "lượng lao động hao phí của hàng hóa A > hàng hóa B.",
             "isCorrect": false
           },
           {
-            "text": "lượng lao động hao phí của hàng hóa A &lt; hàng hóa B.",
+            "text": "lượng lao động hao phí của hàng hóa A < hàng hóa B.",
             "isCorrect": false
           },
           {
@@ -957,11 +978,7 @@
         "text": "Câu 19. Điền từ ngữ thích hợp vào chỗ chấm:",
         "options": [
           {
-            "text": "Thời gian lao động xã hội cần thiết là thời gian đòi hỏi để sản xuất ra một giá trị sử dụng nào đó trong những điều kiện ...(1)... của xã hội với trình độ ...(2)... trung bình, cường độ lao động",
-            "isCorrect": false
-          },
-          {
-            "text": "...(3)...",
+            "text": "Thời gian lao động xã hội cần thiết là thời gian đòi hỏi để sản xuất ra một giá trị sử dụng nào đó trong những điều kiện ...(1)... của xã hội với trình độ ...(2)... trung bình, cường độ lao động...(3)...",
             "isCorrect": false
           },
           {
@@ -1025,8 +1042,20 @@
         ]
       },
       {
-        "text": "Câu 22. Hình thái giá trị đầu tiên của tiền tệ là hình thái tiền tệ hình thái chung của giá trị hình thái mở rộng của giá trị",
+        "text": "Câu 22. Hình thái giá trị đầu tiên của tiền tệ là ?",
         "options": [
+          {
+            "text": "hình thái tiền tệ",
+            "isCorrect": false
+          },
+          {
+            "text": "hình thái chung của giá trị",
+            "isCorrect": false
+          },
+          {
+            "text": "hình thái mở rộng của giá trị",
+            "isCorrect": false
+          },
           {
             "text": "hình thái giá trị giản đơn hay ngẫu nhiên",
             "isCorrect": true
@@ -1034,8 +1063,12 @@
         ]
       },
       {
-        "text": "Câu 23. Khi tăng cường độ lao động thì tổng số sản phẩm tăng và lượng giá trị trong một đơn vị hàng hóa tăng.",
+        "text": "Câu 23. Khi tăng cường độ lao động thì ?",
         "options": [
+          {
+            "text": "tổng số sản phẩm tăng và lượng giá trị trong một đơn vị hàng hóa tăng.",
+            "isCorrect": false
+          },
           {
             "text": "tổng số sản phẩm tăng và lượng giá trị trong một đơn vị hàng hóa giảm.",
             "isCorrect": false
@@ -1068,8 +1101,12 @@
         ]
       },
       {
-        "text": "Câu 25. Đặc điểm của hàng hóa hữu hình là không thể cất trữ được, tồn tại ở các dạng vật thể, thực hiện giá trị sử dụng và giá trị cùng diễn ra.",
+        "text": "Câu 25. Đặc điểm của hàng hóa hữu hình là ?",
         "options": [
+          {
+            "text": "không thể cất trữ được, tồn tại ở các dạng vật thể, thực hiện giá trị sử dụng và giá trị cùng diễn ra.",
+            "isCorrect": false
+          },
           {
             "text": "có thể cất trữ được, tồn tại ở các dạng vật thể, thực hiện giá trị sử dụng và giá trị cùng diễn ra.",
             "isCorrect": true
@@ -1148,8 +1185,20 @@
         ]
       },
       {
-        "text": "Câu 29. Biểu hiện nào thể hiện sự hoạt động của quy luật giá trị Cơ chế cạnh tranh của hàng hóa Sự lên xuống của tiền tệ Sự cạnh tranh giữa các chủ thể sản xuất",
+        "text": "Câu 29. Biểu hiện nào thể hiện sự hoạt động của quy luật giá trị ?",
         "options": [
+          {
+            "text": "Cơ chế cạnh tranh của hàng hóa",
+            "isCorrect": false
+          },
+          {
+            "text": "Sự lên xuống của tiền tệ",
+            "isCorrect": false
+          },
+          {
+            "text": "Sự cạnh tranh giữa các chủ thể sản xuất",
+            "isCorrect": false
+          },
           {
             "text": "Sự vận động của giá cả xung quanh giá trị",
             "isCorrect": true
@@ -1720,8 +1769,12 @@
         ]
       },
       {
-        "text": "Câu 57. Quan hệ giữa năng suất lao động và lượng giá trị trong một đơn vị hàng hóa là không đổi.",
+        "text": "Câu 57. Quan hệ giữa năng suất lao động và lượng giá trị trong một đơn vị hàng hóa là ?",
         "options": [
+          {
+            "text": "không đổi.",
+            "isCorrect": false
+          },
           {
             "text": "tỉ lệ thuận.",
             "isCorrect": false
@@ -1968,10 +2021,10 @@
         ]
       },
       {
-        "text": "Câu 69. Khi cung &gt; cầu thì",
+        "text": "Câu 69. Khi cung > cầu thì",
         "options": [
           {
-            "text": "A. giá cả &lt; giá trị.",
+            "text": "A. giá cả < giá trị.",
             "isCorrect": true
           },
           {
@@ -1979,7 +2032,7 @@
             "isCorrect": false
           },
           {
-            "text": "giá cả &gt; giá trị.",
+            "text": "giá cả > giá trị.",
             "isCorrect": false
           },
           {
@@ -1989,8 +2042,12 @@
         ]
       },
       {
-        "text": "Câu 70. Hình thức biểu hiện ra bên ngoài của giá trị hàng hóa là Giá trị thặng dư",
+        "text": "Câu 70. Hình thức biểu hiện ra bên ngoài của giá trị hàng hóa là ",
         "options": [
+          {
+            "text": "Giá trị thặng dư",
+            "isCorrect": false
+          },
           {
             "text": "Giá trị trao đổi",
             "isCorrect": true
@@ -2090,8 +2147,12 @@
         ]
       },
       {
-        "text": "Câu 75. Năng suất lao động tăng lên 2 lần làm cho tổng số sản phẩm giảm, tổng giá trị sản phẩm giảm xuống 1/2 lần và lượng giá trị trong một đơn vị hàng hóa không đổi.",
+        "text": "Câu 75. Năng suất lao động tăng lên 2 lần làm cho ?",
         "options": [
+          {
+            "text": "tổng số sản phẩm giảm, tổng giá trị sản phẩm giảm xuống 1/2 lần và lượng giá trị trong một đơn vị hàng hóa không đổi.",
+            "isCorrect": false
+          },
           {
             "text": "tổng số sản phẩm giảm, tổng giá trị sản phẩm tăng lên 2 lần và lượng giá trị trong một đơn vị hàng hóa không đổi.",
             "isCorrect": false
@@ -2149,8 +2210,12 @@
         ]
       },
       {
-        "text": "Câu 78. Quy luật giá trị điều tiết lưu thông, có nghĩa là hàng hóa vận động từ nơi có giá cao đến nơi có giá cao.",
+        "text": "Câu 78. Quy luật giá trị điều tiết lưu thông, có nghĩa là hàng hóa vận động từ nơi ?",
         "options": [
+          {
+            "text": "có giá cao đến nơi có giá cao.",
+            "isCorrect": false
+          },
           {
             "text": "có giá cao đến nơi có giá thấp.",
             "isCorrect": false
@@ -2208,8 +2273,16 @@
         ]
       },
       {
-        "text": "Câu 81. Lao động trừu tượng là phạm trù Tư nhân Vĩnh viễn",
+        "text": "Câu 81. Lao động trừu tượng là phạm trù ?",
         "options": [
+          {
+            "text": "Tư nhân",
+            "isCorrect": false
+          },
+          {
+            "text": "Vĩnh viễn",
+            "isCorrect": false
+          },
           {
             "text": "Lịch sử",
             "isCorrect": true
@@ -2350,11 +2423,11 @@
         "text": "Câu 88. Khi cung = cầu thì giá cả hàng hóa như thế nào?",
         "options": [
           {
-            "text": "Giá cả &lt; giá trị",
+            "text": "Giá cả < giá trị",
             "isCorrect": false
           },
           {
-            "text": "Giá cả &gt; giá trị",
+            "text": "Giá cả > giá trị",
             "isCorrect": false
           },
           {
@@ -2389,8 +2462,12 @@
         ]
       },
       {
-        "text": "Câu 90. Ưu thế của sản xuất hàng hóa là thúc đẩy năng suất lao động, phát triển lực lượng sản xuất xã hội và mở rộng giao lưu kinh tế.",
+        "text": "Câu 90. Ưu thế của sản xuất hàng hóa là ?",
         "options": [
+          {
+            "text": "thúc đẩy năng suất lao động, phát triển lực lượng sản xuất xã hội và mở rộng giao lưu kinh tế.",
+            "isCorrect": false
+          },
           {
             "text": "thúc đẩy phân công lao động xã hội, chuyên môn hóa sản xuất và mở rộng giao lưu kinh tế.",
             "isCorrect": true
@@ -2524,8 +2601,12 @@
         ]
       },
       {
-        "text": "Câu 97. Quy luật giá trị là quy luật kinh tế cơ bản của chủ nghĩa xã hội.",
+        "text": "Câu 97. Quy luật giá trị là quy luật kinh tế cơ bản của ?",
         "options": [
+          {
+            "text": "chủ nghĩa xã hội.",
+            "isCorrect": false
+          },
           {
             "text": "sản xuất hàng hóa.",
             "isCorrect": true
@@ -2688,12 +2769,8 @@
         ]
       },
       {
-        "text": "Câu 105. Điền từ ngữ thích hợp vào chỗ chấm:",
+        "text": "Câu 105. Điền từ ngữ thích hợp vào chỗ chấm: Phân công lao động xã hội là sự ...(1)... lao động trong xã hội thành các ngành, lĩnh vực sản xuất ...(2)... tạo nên sự ...(3)... của những người sản xuất những ngành, nghề khác nhau.",
         "options": [
-          {
-            "text": "Phân công lao động xã hội là sự ...(1)... lao động trong xã hội thành các ngành, lĩnh vực sản xuất ...(2)... tạo nên sự ...(3)... của những người sản xuất những ngành, nghề khác nhau.",
-            "isCorrect": false
-          },
           {
             "text": "(1) phân chia, (2) giống nhau, (3) chuyên môn hóa",
             "isCorrect": false
@@ -2713,8 +2790,12 @@
         ]
       },
       {
-        "text": "Câu 106. Khi năng suất lao động tăng lên thì tổng số sản phẩm giảm và lượng giá trị trong một đơn vị hàng hóa tăng.",
+        "text": "Câu 106. Khi năng suất lao động tăng lên thì ?",
         "options": [
+          {
+            "text": "tổng số sản phẩm giảm và lượng giá trị trong một đơn vị hàng hóa tăng.",
+            "isCorrect": false
+          },
           {
             "text": "tổng số sản phẩm tăng và lượng giá trị trong một đơn vị hàng hóa giảm.",
             "isCorrect": true
@@ -2814,8 +2895,12 @@
         ]
       },
       {
-        "text": "Câu 111. Hàng hóa là sản phẩm của lao động thoả mãn nhu cầu nào đó của con người.",
+        "text": "Câu 111. Hàng hóa là ?",
         "options": [
+          {
+            "text": "sản phẩm của lao động thoả mãn nhu cầu nào đó của con người.",
+            "isCorrect": false
+          },
           {
             "text": "sản phẩm của lao động, có thể thoả mãn một nhu cầu nào đó của con người thông qua trao đổi, mua bán.",
             "isCorrect": true
@@ -2852,8 +2937,20 @@
         ]
       },
       {
-        "text": "Câu 113. Tiền được dùng làm gì khi thực hiện chức năng phương tiện lưu thông Nộp thuế Trả nợ Thanh toán",
+        "text": "Câu 113. Tiền được dùng làm gì khi thực hiện chức năng phương tiện lưu thông ?",
         "options": [
+          {
+            "text": "Nộp thuế",
+            "isCorrect": false
+          },
+          {
+            "text": "Trả nợ",
+            "isCorrect": false
+          },
+          {
+            "text": "Thanh toán",
+            "isCorrect": false
+          },
           {
             "text": "Môi giới trong quá trình trao đổi hàng hóa",
             "isCorrect": true
@@ -2945,8 +3042,12 @@
         ]
       },
       {
-        "text": "Câu 118. Việc tăng cường độ lao động làm cho tổng số sản phẩm tăng, tổng giá trị sản phẩm giảm và lượng giá trị trong một đơn vị hàng hóa giảm.",
+        "text": "Câu 118. Việc tăng cường độ lao động làm cho ?",
         "options": [
+          {
+            "text": "tổng số sản phẩm tăng, tổng giá trị sản phẩm giảm và lượng giá trị trong một đơn vị hàng hóa giảm.",
+            "isCorrect": false
+          },
           {
             "text": "tổng số sản phẩm được sản xuất ra tăng, tổng giá trị sản phẩm tăng và lượng giá trị trong một đơn vị hàng hóa giảm.",
             "isCorrect": false
@@ -3009,8 +3110,12 @@
     "title": "Chương 3",
     "questions": [
       {
-        "text": "Câu 1. Phương pháp sản xuất giá trị thặng dư tương đối là độ dài ngày lao động không đổi, thời gian lao động tất yếu tăng lên.",
+        "text": "Câu 1. Phương pháp sản xuất giá trị thặng dư tương đối là ?",
         "options": [
+          {
+            "text": "độ dài ngày lao động không đổi, thời gian lao động tất yếu tăng lên.",
+            "isCorrect": false
+          },
           {
             "text": "rút ngắn thời gian lao động tất yếu trong khi độ dài ngày lao động không đổi hoặc rút ngắn.",
             "isCorrect": true
@@ -3194,7 +3299,7 @@
         ]
       },
       {
-        "text": "Câu 10. Người được hưởng địa tô chênh lệch II là",
+        "text": "Câu 10. Người được hưởng địa tô chênh lệch II là ?",
         "options": [
           {
             "text": "nhà tư bản nông nghiệp được hưởng trong thời hạn thuê đất.",
@@ -3215,8 +3320,12 @@
         ]
       },
       {
-        "text": "Câu 11. Điểm giống nhau giữa tích tụ và tập trung tư bản là làm tăng tổng tư bản xã hội.",
+        "text": "Câu 11. Điểm giống nhau giữa tích tụ và tập trung tư bản là ?",
         "options": [
+          {
+            "text": "làm tăng tổng tư bản xã hội.",
+            "isCorrect": false
+          },
           {
             "text": "quan hệ giữa các nhà tư bản với giai cấp công nhân.",
             "isCorrect": false
@@ -3274,8 +3383,12 @@
         ]
       },
       {
-        "text": "Câu 14. Hao mòn vô hình tư bản cố định khác hao mòn hữu hình ở chỗ tuỳ thuộc vào cường độ sử dụng.",
+        "text": "Câu 14. Hao mòn vô hình tư bản cố định khác hao mòn hữu hình ở chỗ ?",
         "options": [
+          {
+            "text": "tuỳ thuộc vào cường độ sử dụng.",
+            "isCorrect": false
+          },
           {
             "text": "tuỳ thuộc vào thời gian khấu hao.",
             "isCorrect": false
@@ -3468,8 +3581,20 @@
     "title": "Phần giá trị thặng dư ngoài lợi nhuận bình quân khi canh tác trên tất cả các loại đất kể cả đất xấu nhất",
     "questions": [
       {
-        "text": "Câu 24. Khi hàng hóa bán đúng theo giá trị thì p &gt; m p &lt; m p = 0",
+        "text": "Câu 24. Khi hàng hóa bán đúng theo giá trị thì ?",
         "options": [
+          {
+            "text": "p > m",
+            "isCorrect": false
+          },
+          {
+            "text": "p < m",
+            "isCorrect": false
+          },
+          {
+            "text": "p = 0",
+            "isCorrect": false
+          },
           {
             "text": "p = m",
             "isCorrect": true
@@ -3532,8 +3657,12 @@
         ]
       },
       {
-        "text": "Câu 28. Tỉ suất giá trị thặng dư biểu hiện quy mô bóc lột của tư bản đối với lao động làm thuê.",
+        "text": "Câu 28. Tỉ suất giá trị thặng dư biểu hiện ?",
         "options": [
+          {
+            "text": "quy mô bóc lột của tư bản đối với lao động làm thuê.",
+            "isCorrect": false
+          },
           {
             "text": "tính chất bóc lột của tư bản đối với lao động làm thuê.",
             "isCorrect": false
@@ -3591,8 +3720,12 @@
         ]
       },
       {
-        "text": "Câu 31. Địa tô chênh lệch II là lợi nhuận siêu ngạch do sản xuất trên những ruộng đất tốt tạo ra.",
+        "text": "Câu 31. Địa tô chênh lệch II là ?",
         "options": [
+          {
+            "text": "lợi nhuận siêu ngạch do sản xuất trên những ruộng đất tốt tạo ra.",
+            "isCorrect": false
+          },
           {
             "text": "lợi nhuận siêu ngạch do sản xuất trên những ruộng đất tốt và có vị trí thuận lợi.",
             "isCorrect": false
@@ -3923,8 +4056,12 @@
         ]
       },
       {
-        "text": "Câu 47. Trong tư bản chủ nghĩa, giá cả nông phẩm được xác định theo giá cả của nông phẩm của loại đất trung bình.",
+        "text": "Câu 47. Trong tư bản chủ nghĩa, giá cả nông phẩm được xác định theo giá cả của nông phẩm của loại đất ?",
         "options": [
+          {
+            "text": "trung bình.",
+            "isCorrect": false
+          },
           {
             "text": "mức trung bình của các loại đất xấu.",
             "isCorrect": false
@@ -3961,8 +4098,12 @@
         ]
       },
       {
-        "text": "Câu 49. Chi phí sản xuất tư bản chủ nghĩa là hao phí tư bản bất biến để tạo ra hàng hóa.",
+        "text": "Câu 49. Chi phí sản xuất tư bản chủ nghĩa là ?",
         "options": [
+          {
+            "text": "hao phí tư bản bất biến để tạo ra hàng hóa.",
+            "isCorrect": false
+          },
           {
             "text": "hao phí lao động quá khứ và phần lao động sống được trả công.",
             "isCorrect": true
@@ -3978,8 +4119,12 @@
         ]
       },
       {
-        "text": "Câu 50. Giá trị thặng dư là giá trị bóc lột được do nhà nước tư bản trả tiền công thấp hơn giá trị sức lao động do công nhân tạo ra.",
+        "text": "Câu 50. Giá trị thặng dư là ?",
         "options": [
+          {
+            "text": "giá trị bóc lột được do nhà nước tư bản trả tiền công thấp hơn giá trị sức lao động do công nhân tạo ra.",
+            "isCorrect": false
+          },
           {
             "text": "giá trị sức lao động của người công nhân làm thuê cho chủ tư bản.",
             "isCorrect": false
@@ -4285,8 +4430,12 @@
         ]
       },
       {
-        "text": "Câu 65. Địa tô tư bản chủ nghĩa là sản phẩm thặng dư và cả một phần sản phẩm tất yếu do công nhân nông nghiệp tạo ra bị chủ ruộng chiếm đoạt.",
+        "text": "Câu 65. Địa tô tư bản chủ nghĩa là ?",
         "options": [
+          {
+            "text": "sản phẩm thặng dư và cả một phần sản phẩm tất yếu do công nhân nông nghiệp tạo ra bị chủ ruộng chiếm đoạt.",
+            "isCorrect": false
+          },
           {
             "text": "một phần của giá trị thặng dư trong nông nghiệp.",
             "isCorrect": false
@@ -4424,18 +4573,14 @@
         ]
       },
       {
-        "text": "Câu 72. Một trong những đặc điểm của tư bản cho vay là",
+        "text": "Câu 72. Một trong những đặc điểm của tư bản cho vay là ?",
         "options": [
           {
             "text": "A. tư bản cho vay độc lập với tư bản sản xuất và tư bản thương nghiệp.",
             "isCorrect": false
           },
           {
-            "text": "B. tách rời giữa quyền sử dụng và quyền sở hữu - che giấu việc bóc lột giá trị thặng dư một cách",
-            "isCorrect": true
-          },
-          {
-            "text": "tinh vi nhất.",
+            "text": "B. tách rời giữa quyền sử dụng và quyền sở hữu - che giấu việc bóc lột giá trị thặng dư một cách tinh vi nhất.",
             "isCorrect": true
           },
           {
@@ -4449,8 +4594,12 @@
         ]
       },
       {
-        "text": "Câu 73. Tích luỹ tư bản là tăng tỉ suất giá trị thặng dư.",
+        "text": "Câu 73. Tích luỹ tư bản là ?",
         "options": [
+          {
+            "text": "tăng tỉ suất giá trị thặng dư.",
+            "isCorrect": false
+          },
           {
             "text": "kết hợp nhiều tư bản nhỏ thành tư bản lớn.",
             "isCorrect": false
@@ -4613,8 +4762,12 @@
         ]
       },
       {
-        "text": "Câu 81. Địa tô tuyệt đối là địa tô thu được do đầu tư thêm tư bản.",
+        "text": "Câu 81. Địa tô tuyệt đối là địa tô thu được ?",
         "options": [
+          {
+            "text": "do đầu tư thêm tư bản.",
+            "isCorrect": false
+          },
           {
             "text": "trên tất cả các loại mộng đất.",
             "isCorrect": true
@@ -4630,8 +4783,12 @@
         ]
       },
       {
-        "text": "Câu 82. Giá cả sản xuất bằng giá trị hàng hóa cộng với lợi nhuận của các nhà tư bản thương nghiệp.",
+        "text": "Câu 82. Giá cả sản xuất bằng ?",
         "options": [
+          {
+            "text": "giá trị hàng hóa cộng với lợi nhuận của các nhà tư bản thương nghiệp.",
+            "isCorrect": false
+          },
           {
             "text": "chi phí sản xuất cộng với lợi nhuận bình quân.",
             "isCorrect": true
@@ -4710,8 +4867,12 @@
         ]
       },
       {
-        "text": "Câu 86. Giải pháp quan trọng nhất để giảm thời gian sản xuất, tăng tốc độ chu chuyển của tư bản là chính sách thưởng, phạt hợp lí đối với người lao động.",
+        "text": "Câu 86. Giải pháp quan trọng nhất để giảm thời gian sản xuất, tăng tốc độ chu chuyển của tư bản là ?",
         "options": [
+          {
+            "text": "chính sách thưởng, phạt hợp lí đối với người lao động.",
+            "isCorrect": false
+          },
           {
             "text": "sử dụng máy móc thiết bị công nghệ hiện đại.",
             "isCorrect": true
@@ -4958,10 +5119,14 @@
         ]
       },
       {
-        "text": "Câu 98. Lợi tức tư bản cho vay biến động theo quan hệ cung - cầu về tư bản cho vay thông qua A. cung = cầu, lợi tức giảm.",
+        "text": "Câu 98. Lợi tức tư bản cho vay biến động theo quan hệ cung - cầu về tư bản cho vay thông qua?",
         "options": [
           {
-            "text": "cung &lt; cầu, lợi tức giảm.",
+            "text": "A. cung = cầu, lợi tức giảm.",
+            "isCorrect": false
+          },
+          {
+            "text": "cung < cầu, lợi tức giảm.",
             "isCorrect": false
           },
           {
@@ -4969,7 +5134,7 @@
             "isCorrect": false
           },
           {
-            "text": "cung &gt; cầu, lợi tức giảm.",
+            "text": "cung > cầu, lợi tức giảm.",
             "isCorrect": true
           }
         ]
@@ -5017,8 +5182,12 @@
         ]
       },
       {
-        "text": "Câu 101. Để tăng cường bóc lột giá trị thặng dư tương đối cần phải cải tiến kĩ thuật, tăng năng suất lao động.",
+        "text": "Câu 101. Để tăng cường bóc lột giá trị thặng dư tương đối cần phải ?",
         "options": [
+          {
+            "text": "cải tiến kĩ thuật, tăng năng suất lao động.",
+            "isCorrect": false
+          },
           {
             "text": "tăng năng suất lao động trong các ngành sản xuất ra tư liệu sinh hoạt.",
             "isCorrect": true

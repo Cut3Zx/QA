@@ -35,5 +35,5 @@ for (let i = 0; i < paragraphs.length; i++) {
     }
 }
 
-fs.writeFileSync('lines.json', JSON.stringify(lines.slice(0, 100), null, 2), 'utf8');
+fs.writeFileSync('lines.json', JSON.stringify(lines, null, 2), 'utf8');
 console.log('Written lines.json');
