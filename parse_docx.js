@@ -6,6 +6,14 @@ const zip = new AdmZip(docFilePath);
 const documentXmlEntry = zip.getEntry('word/document.xml');
 let xmlString = documentXmlEntry.getData().toString('utf8');
 
+function decodeHtml(html) {
+    return html.replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&amp;/g, '&')
+        .replace(/&quot;/g, '"')
+        .replace(/&apos;/g, "'");
+}
+
 const paragraphs = [];
 const pMatches = xmlString.matchAll(/<w:p(?:\s[^>]*)?>([\s\S]*?)<\/w:p>/g);
 
@@ -23,7 +31,7 @@ for (const pMatch of pMatches) {
         }
         const tMatches = rContent.matchAll(/<w:t(?:\s[^>]*)?>([\s\S]*?)<\/w:t>/g);
         for (const tMatch of tMatches) {
-            paragraphText += tMatch[1];
+            paragraphText += decodeHtml(tMatch[1]);
         }
     }
 
